@@ -12,17 +12,17 @@ public class Main {
 //    Curso: Sistemas da Informação
 
     public static void main(String[] args){
-        Arvore<Integer> arvore = new Arvore<Integer>();
+        Arvore<Integer> arvore = new Arvore<>();
         Scanner leia = new Scanner(System.in);
         int opc = 0;
         while (opc != 4){
-            System.out.println("");
+            System.out.println();
             System.out.println("## ÁRVORE BINÁRIA ##");
             System.out.println("1 - Inserir");
             System.out.println("2 - Remover");
             System.out.println("3 - Listar");
             System.out.println("4 - Sair");
-            System.out.println("");
+            System.out.println();
             System.out.print("Informe a opção desejada: ");
             opc = leia.nextInt();
             switch (opc) {
